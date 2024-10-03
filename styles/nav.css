@@ -1,0 +1,54 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 67px;
+  padding: 0 128px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.page-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.page-links li a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.page-links li:not(:last-child) {
+  margin-right: 48px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.social-links li:not(:last-child) {
+  margin-right: 16px;
+}
+
+.social-links li a img {
+  height: 16px;
+  width: 16px;
+}
+
+.divider {
+  height: 16px;
+  border: 1px solid var(--black);
+  margin: 0 32px;
+}
+
+.search img {
+  width: 16px;
+  height: 16px;
+}

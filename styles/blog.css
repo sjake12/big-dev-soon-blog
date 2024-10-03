@@ -1,0 +1,88 @@
+.blog-posts {
+  width: 100%;
+  padding: 104px 128px 76px 128px;
+  background-color: var(--background);
+  border-bottom: 1px solid var(--black-32);
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 24px;
+  grid-template-areas:
+    "one one two two"
+    "three four two two";
+}
+
+.blog {
+  background: var(--white);
+}
+
+.blog.one {
+  grid-area: one;
+  padding: 32px 24px;
+}
+
+.blog.two {
+  grid-area: two;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog.three {
+  grid-area: three;
+  padding: 16px;
+}
+
+.blog.four {
+  grid-area: four;
+  padding: 16px;
+}
+
+.blog img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.blog.two img {
+  flex: 1;
+}
+
+.blog-post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.category-fashion {
+  background: var(--orange);
+  color: var(--white);
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+.category-beauty {
+  background: var(--pink);
+  color: var(--white);
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+.category-lifestyle {
+  background: var(--blue);
+  color: var(--white);
+  padding: 2px 6px;
+  border-radius: 999px;
+}

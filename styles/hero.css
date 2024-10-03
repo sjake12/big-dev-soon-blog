@@ -1,0 +1,17 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/images/background-image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0 0 128px;
+}
+
+.hero-header {
+  margin-bottom: 24px;
+}
+
+.hero p {
+  margin-bottom: 32px;
+}

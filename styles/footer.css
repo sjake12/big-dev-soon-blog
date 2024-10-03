@@ -1,0 +1,74 @@
+footer {
+  padding: 0 126px 0 128px;
+  position: relative;
+}
+
+footer header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.slogan {
+  max-width: 361px;
+  margin-top: 46px;
+  margin-bottom: 20px;
+}
+
+.slogan img {
+  margin-bottom: 16px;
+}
+
+.faqs {
+  margin-top: 41px;
+}
+
+.faqs ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+footer .search {
+  margin-top: 40px;
+  border-bottom: 1px solid var(--black);
+}
+
+.search input {
+  border: none;
+  outline: none;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.subscribe {
+  width: 405px;
+  background: var(--black-8);
+  border-radius: 999px;
+  display: flex;
+}
+
+.subscribe input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background: transparent;
+  padding: 9px 0 10px 16px;
+}
+
+.copyright {
+  padding: 20px 144px;
+  display: flex;
+  border-top: 1px solid var(--black);
+}
+
+.rights {
+  margin-left: 193px;
+  display: flex;
+  gap: 24px;
+}

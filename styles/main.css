@@ -1,6 +1,7 @@
 main {
   background: var(--background);
   padding-top: 82px;
+  padding-bottom: 96px;
 }
 
 .featured__blog {
@@ -101,4 +102,55 @@ main {
   display: block;
   text-align: center;
   margin-bottom: 80px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel .slides {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+  overflow: scroll;
+}
+
+.carousel .slides::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel .slides > li img {
+  width: 267px;
+  height: 267px;
+  object-fit: cover;
+}
+
+.carousel .prev {
+  position: absolute;
+  top: 50%;
+  left: 47px;
+  width: 40px;
+  height: 40px;
+  background: var(--black-60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .next {
+  position: absolute;
+  top: 50%;
+  right: 47px;
+  width: 40px;
+  height: 40px;
+  background: var(--black-60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .prev img,
+.carousel .next img {
+  filter: invert(60%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+    contrast(100%);
 }
